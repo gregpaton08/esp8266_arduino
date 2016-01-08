@@ -1,0 +1,17 @@
+VCC	3.3v
+RST	Pull-up Resistor
+CH_PD	Pull-up Resistor
+TXD	RXD
+RXD	TXD
+GPIO0	GROUND
+GPIO2	Pull-up Resistor
+GND	GROUND
+
+
+To load a sketch:
+* GPIO0 must be grounded
+* GPIO2 must be 3.3v
+
+To run a sketch:
+* GPIO0 must be 3.3v
+* GPIO2 must be 3.3v
